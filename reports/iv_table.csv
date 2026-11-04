@@ -1,0 +1,8 @@
+feature,iv,strength
+Checking account,0.6591,suspicious (check leakage)
+Duration,0.2132,medium
+Saving accounts,0.1879,medium
+Credit amount,0.0921,weak
+Housing,0.0838,weak
+Purpose,0.0684,weak
+Job,0.009,not useful

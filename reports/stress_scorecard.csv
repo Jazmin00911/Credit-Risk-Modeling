@@ -1,0 +1,4 @@
+scenario,z,mean_pd,expected_loss,share_above_cutoff,el_multiple_vs_baseline
+baseline,0.0,0.3,529946.3347,0.598,1.0
+adverse,-1.5,0.458,767508.0793,0.869,1.4483
+severely_adverse,-3.0,0.6232,999689.8352,1.0,1.8864

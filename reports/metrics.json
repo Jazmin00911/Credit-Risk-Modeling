@@ -1,0 +1,132 @@
+{
+  "data_audit": {
+    "rows_raw": 1000,
+    "rows_after_dropna": 522,
+    "pct_rows_lost": 47.8,
+    "default_rate_raw": 0.3,
+    "default_rate_after_dropna": 0.4425287356321839,
+    "default_rate_of_dropped_rows": 0.14435146443514643
+  },
+  "models": {
+    "scorecard": {
+      "threshold": 0.15,
+      "cv_oof": {
+        "auc": 0.7464888888888889,
+        "gini": 0.49297777777777774,
+        "gini_ci_low": 0.4195173787541992,
+        "gini_ci_high": 0.5637296205374687,
+        "ks": 0.4,
+        "brier": 0.17769760512292226
+      },
+      "test": {
+        "auc": 0.7570285714285715,
+        "gini": 0.514057142857143,
+        "gini_ci_low": 0.3754393945068666,
+        "gini_ci_high": 0.6401415248709188,
+        "ks": 0.4533333333333333,
+        "brier": 0.1729105163733551
+      },
+      "test_calibration": {
+        "mean_pd": 0.3015680351785169,
+        "observed_default_rate": 0.3
+      },
+      "psi_oof_vs_test": 0.04280505208138496,
+      "test_cost_by_policy": {
+        "approve_all": {
+          "threshold": 1.01,
+          "cost": 375.0,
+          "fn_cost": 375.0,
+          "fp_cost": 0.0,
+          "approval_rate": 1.0,
+          "cost_per_applicant": 1.5
+        },
+        "cutoff_0.50": {
+          "threshold": 0.5,
+          "cost": 258.0,
+          "fn_cost": 235.0,
+          "fp_cost": 23.0,
+          "approval_rate": 0.796,
+          "cost_per_applicant": 1.032
+        },
+        "bayes_0.167": {
+          "threshold": 0.16666666666666666,
+          "cost": 138.0,
+          "fn_cost": 40.0,
+          "fp_cost": 98.0,
+          "approval_rate": 0.33999999999999997,
+          "cost_per_applicant": 0.552
+        },
+        "optimized": {
+          "threshold": 0.15,
+          "cost": 138.0,
+          "fn_cost": 35.0,
+          "fp_cost": 103.0,
+          "approval_rate": 0.31599999999999995,
+          "cost_per_applicant": 0.552
+        }
+      }
+    },
+    "xgb": {
+      "threshold": 0.18,
+      "cv_oof": {
+        "auc": 0.758658201058201,
+        "gini": 0.5173164021164021,
+        "gini_ci_low": 0.44434867513943144,
+        "gini_ci_high": 0.5901820063867769,
+        "ks": 0.4222222222222222,
+        "brier": 0.17466658353805542
+      },
+      "test": {
+        "auc": 0.7375238095238095,
+        "gini": 0.47504761904761894,
+        "gini_ci_low": 0.3298317447088128,
+        "gini_ci_high": 0.5991193328068329,
+        "ks": 0.3942857142857143,
+        "brier": 0.1810612678527832
+      },
+      "test_calibration": {
+        "mean_pd": 0.30103278160095215,
+        "observed_default_rate": 0.3
+      },
+      "psi_oof_vs_test": 0.04149394158369245,
+      "test_cost_by_policy": {
+        "approve_all": {
+          "threshold": 1.01,
+          "cost": 375.0,
+          "fn_cost": 375.0,
+          "fp_cost": 0.0,
+          "approval_rate": 1.0,
+          "cost_per_applicant": 1.5
+        },
+        "cutoff_0.50": {
+          "threshold": 0.5,
+          "cost": 252.0,
+          "fn_cost": 225.0,
+          "fp_cost": 27.0,
+          "approval_rate": 0.772,
+          "cost_per_applicant": 1.008
+        },
+        "bayes_0.167": {
+          "threshold": 0.16666666666666666,
+          "cost": 151.0,
+          "fn_cost": 60.0,
+          "fp_cost": 91.0,
+          "approval_rate": 0.384,
+          "cost_per_applicant": 0.604
+        },
+        "optimized": {
+          "threshold": 0.18,
+          "cost": 156.0,
+          "fn_cost": 70.0,
+          "fp_cost": 86.0,
+          "approval_rate": 0.41200000000000003,
+          "cost_per_applicant": 0.624
+        }
+      }
+    }
+  },
+  "config": {
+    "seed": 42,
+    "test_size": 0.25
+  }
+}

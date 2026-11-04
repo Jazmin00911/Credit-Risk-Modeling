@@ -1,0 +1,35 @@
+feature,bin,n,bad_rate,woe,coef,points
+Job,2,630,0.295,0.025,0.148,86.2
+Job,1,200,0.28,0.096,0.148,85.9
+Job,3,148,0.345,-0.205,0.148,87.2
+Job,0,22,0.318,-0.118,0.148,86.8
+Credit amount,"(-inf, 1262.0]",201,0.303,-0.016,-0.334,86.2
+Credit amount,"(4720.0, inf]",200,0.425,-0.542,-0.334,81.1
+Credit amount,"(1906.8, 2852.4]",200,0.27,0.146,-0.334,87.7
+Credit amount,"(2852.4, 4720.0]",200,0.26,0.197,-0.334,88.2
+Credit amount,"(1262.0, 1906.8]",199,0.241,0.296,-0.334,89.2
+Duration,"(-inf, 12.0]",359,0.212,0.467,-0.834,97.6
+Duration,"(30.0, inf]",173,0.48,-0.762,-0.834,68.0
+Duration,"(15.0, 24.0]",339,0.322,-0.098,-0.834,84.0
+Duration,"(24.0, 30.0]",57,0.333,-0.162,-0.834,82.4
+Duration,"(12.0, 15.0]",72,0.181,0.641,-0.834,101.7
+Housing,own,713,0.261,0.195,-0.535,89.3
+Housing,free,108,0.407,-0.473,-0.535,79.0
+Housing,rent,179,0.391,-0.404,-0.535,80.1
+Saving accounts,none,183,0.175,0.697,-0.707,100.5
+Saving accounts,little,603,0.36,-0.268,-0.707,80.9
+Saving accounts,quite rich,63,0.175,0.676,-0.707,100.1
+Saving accounts,rich,48,0.125,1.035,-0.707,107.4
+Saving accounts,moderate,103,0.33,-0.142,-0.707,83.4
+Checking account,little,274,0.493,-0.814,-0.877,65.7
+Checking account,moderate,269,0.39,-0.399,-0.877,76.2
+Checking account,none,394,0.117,1.171,-0.877,115.9
+Checking account,rich,63,0.222,0.384,-0.877,96.0
+Purpose,radio/TV,280,0.221,0.412,-0.513,92.4
+Purpose,education,59,0.39,-0.399,-0.513,80.4
+Purpose,furniture/equipment,181,0.32,-0.093,-0.513,84.9
+Purpose,car,337,0.315,-0.063,-0.513,85.4
+Purpose,business,97,0.351,-0.23,-0.513,82.9
+Purpose,domestic appliances,12,0.333,-0.204,-0.513,83.3
+Purpose,repairs,22,0.364,-0.306,-0.513,81.8
+Purpose,vacation/others,12,0.417,-0.53,-0.513,78.5

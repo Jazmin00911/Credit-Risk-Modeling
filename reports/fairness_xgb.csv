@@ -1,0 +1,6 @@
+group,n,approval_rate,default_rate,fn_rate,fp_rate,adverse_impact_ratio,attribute
+female,310,0.413,0.352,0.165,0.453,0.947,Sex
+male,690,0.436,0.277,0.178,0.465,1.0,Sex
+30-49,504,0.464,0.256,0.178,0.437,0.951,Age band
+50+,125,0.488,0.272,0.206,0.407,1.0,Age band
+<30,371,0.361,0.369,0.161,0.521,0.74,Age band
